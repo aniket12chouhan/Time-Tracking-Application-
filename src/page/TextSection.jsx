@@ -79,13 +79,13 @@ const TextSection = () => {
 
         <section className=' w-full min-h-[90vh] flex flex-col items-center gap-2 pt-10'>
             {
-                form && <form onSubmit={handleSubmit} className=' border-2 border-black px-10 py-10  h-60 flex flex-col items-center' >
-                    <input type="text" className=' border-2 border-black placeholder:text-black px-3 py-2 mt-3 w-[350px]' placeholder='Title' onChange={handleChange}
+                form && <form onSubmit={handleSubmit} className=' border-2 border-black sm:px-10 px-5 py-10  h-60 flex flex-col items-center' >
+                    <input type="text" className=' border-2 border-black placeholder:text-black px-3 py-2 mt-3 md:w-[350px] w-full' placeholder='Title' onChange={handleChange}
                         required
                         name="title"
                         value={title}
                     />
-                    <input type="text" className='border-2 border-black placeholder:text-black px-3 py-2 mt-3 mb-3 w-[350px]' placeholder='Description'
+                    <input type="text" className='border-2 border-black placeholder:text-black px-3 py-2 mt-3 mb-3 md:w-[350px] w-full' placeholder='Description'
                         onChange={handleChange}
                         required
                         name="description"

@@ -81,7 +81,7 @@ const TimerSection = () => {
                 </div>
 
                 {
-                    (taskList.length > 0) && <div className="list w-[28rem]  font-semibold">
+                    (taskList.length > 0) && <div className="list md:w-[28rem]  w-full mx-5 font-semibold">
                         <span className='flex '>
                             <h1 className=' text-lg font-semibold mb-2 ms-2'>
                                 Task Details
